@@ -19,8 +19,14 @@ h3 {
 
 /* header */
 header {
+  width: 100%;
   background-color: #fff;
   padding: 15px 0;
+  position: fixed;
+  top: 0;
+}
+
+.header-inner {
   display: flex;
   justify-content: space-between;
 }
@@ -41,33 +47,38 @@ header i {
   transition: 0.3s;
 }
 
+main {
+  margin-top: 78px;
+}
+
 /* keyvisual */
 .title {
-  padding: 400px 0;
   text-align: center;
 }
 
 .keyvisual {
   width: 100%;
   background: url(../img/keyvisual/keyvisual.jpg) no-repeat center/cover;
+  padding: 400px 0;
 }
 
 .keyvisual h1 {
   font-size: 65px;
   font-weight: 700;
   color: #6ba7eb;
-  margin-bottom: 30px;
 }
 
 .keyvisual h2 {
   font-size: 40px;
   font-weight: 700;
   color: #ffffff;
+  margin-top: 30px;
 }
 
 /* work */
 .work-img {
   flex-basis: 40%;
+  text-align: center;
 }
 
 .work img {
