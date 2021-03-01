@@ -121,13 +121,13 @@ article p {
 /* skills */
 .skills {
   padding-top: 50px;
-  margin-bottom: 70px;
+  padding-bottom: 70px;
   background-color: #fff;
   text-align: center;
 }
 
 .skills h3 {
-  padding-bottom: 50px;
+  margin-bottom: 50px;
 }
 
 .skills img {
@@ -144,7 +144,7 @@ article p {
 
 .skills li {
   margin-right: 100px;
-  margin-bottom: 100px;
+  margin-top: 100px;
   opacity: 0.7;
 }
 
@@ -153,12 +153,12 @@ article p {
   transition: 0.7s;
 }
 
-.skills li:nth-of-type(3n) {
-  margin-right: 0;
+.skills li:nth-of-type(-n+3) {
+  margin-top: 0;
 }
 
-.skills li:nth-of-type(n+4) {
-  margin-bottom: 0;
+.skills li:nth-of-type(3n) {
+  margin-right: 0;
 }
 
 /* plan */
