@@ -52,7 +52,7 @@ header i {
 }
 
 main {
-  margin-top: 78px;
+  padding-top: 78px;
 }
 
 /* keyvisual */
@@ -121,7 +121,7 @@ article p {
 /* skills */
 .skills {
   padding-top: 50px;
-  padding-bottom: 70px;
+  margin-bottom: 70px;
   background-color: #fff;
   text-align: center;
 }
@@ -137,21 +137,27 @@ article p {
   z-index: 1;
 }
 
-.skills a {
+.skills ul {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.skills li {
   margin-right: 100px;
   margin-bottom: 100px;
   opacity: 0.7;
 }
 
-.skills a:hover {
+.skills li:hover {
   opacity: 1;
+  transition: 0.7s;
 }
 
-.skills a:nth-of-type(3n) {
+.skills li:nth-of-type(3n) {
   margin-right: 0;
 }
 
-.skills a:nth-of-type(n+4) {
+.skills li:nth-of-type(n+4) {
   margin-bottom: 0;
 }
 
