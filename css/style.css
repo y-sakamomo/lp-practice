@@ -61,7 +61,6 @@ main {
 }
 
 .keyvisual {
-  width: 100%;
   background: url(../img/keyvisual/keyvisual.jpg) no-repeat center/cover;
   padding: 400px 0;
 }
@@ -214,10 +213,10 @@ tbody tr:nth-child(2n) {
   overflow: hidden;
   font-size: 40px;
   text-align: center;
+  transition: 0.5s;
 }
 
 .sns a:hover {
-  transition: 0.5s;
   background-color: #fff;
 }
 
@@ -241,8 +240,6 @@ footer p {
     }
 
   .keyvisual {
-    width: 100%;
-    background: url(../img/keyvisual/keyvisual.jpg) no-repeat center/cover;
     padding: 250px 0;
   }
 
